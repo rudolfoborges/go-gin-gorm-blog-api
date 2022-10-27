@@ -1,0 +1,29 @@
+POST http://localhost:3000/v1/users
+Content-Type: application/json
+
+{
+    "first_name": "Jon",
+    "last_name": "Show",
+    "email": "jon.show@gmail.com",
+    "password": "123456"
+}
+
+###
+
+GET http://localhost:3000/v1/users
+Content-Type: application/json
+
+###
+
+POST http://localhost:3000/v1/posts
+Content-Type: application/json
+
+{
+    "title": "My first post",
+    "content": "This is my first post",
+    "user_id": 2
+}
+
+###
+GET http://localhost:3000/v1/posts
+Content-Type: application/json
